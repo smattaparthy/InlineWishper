@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist ...>
+<plist version="1.0"><dict>
+  <key>CFBundleDisplayName</key><string>InlineWhisper</string>
+  <key>LSApplicationCategoryType</key><string>public.app-category.productivity</string>
+  <key>NSMicrophoneUsageDescription</key><string>InlineWhisper requires microphone access to transcribe your speech on-device.</string>
+  <key>NSAppleEventsUsageDescription</key><string>Used to insert text into other apps when needed. No data leaves your Mac.</string>
+  <key>NSHumanReadableCopyright</key><string>© 2025 Your Org</string>
+</dict></plist>

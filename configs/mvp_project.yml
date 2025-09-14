@@ -1,0 +1,38 @@
+name: InlineWhisperMVP
+options:
+  bundleIdPrefix: com.inline
+  deploymentTarget:
+    macOS: "15.0"
+settings:
+  BASE_SDK: macosx
+  CODE_SIGN_STYLE: Automatic
+  SWIFT_VERSION: 5.9
+  ENABLE_HARDENED_RUNTIME: YES
+packages:
+  DictationKit:
+    path: ../Modules/DictationKit
+  WhisperBridge:
+    path: ../Modules/WhisperBridge
+  SystemKit:
+    path: ../Modules/SystemKit
+targets:
+  InlineWhisperMVP:
+    type: application
+    platform: macOS
+    sources:
+      - path: ../app
+    settings:
+      INFOPLIST_FILE: ../configs/AppInfo.plist
+      CODE_SIGN_ENTITLEMENTS: ../app/InlineWhisper.entitlements
+      OTHER_LDFLAGS: ["-lc++", "-ObjC"]
+    dependencies:
+      - package: DictationKit
+      - package: WhisperBridge
+      - package: SystemKit
+      - sdk: AVFoundation.framework
+      - sdk: AppKit.framework
+      - sdk: UserNotifications.framework
+      - sdk: Accelerate.framework
+    entitlements:
+      com.apple.security.app-sandbox: true
+      com.apple.security.device.microphone: true

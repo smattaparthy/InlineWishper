@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperCPP.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP.dia"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperEngine.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine.dia"
+  }
+}

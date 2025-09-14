@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Tests/WhisperBridgeTests/WhisperBridgeTests.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/WhisperBridgeTests.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/WhisperBridgeTests.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/WhisperBridgeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/WhisperBridgeTests.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridgeTests.build/WhisperBridgeTests.dia"
+  }
+}

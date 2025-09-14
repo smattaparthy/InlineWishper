@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Tests/DictationKitTests/DictationKitTests.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/DictationKitTests.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/DictationKitTests.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/DictationKitTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/DictationKitTests.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKitTests.build/DictationKitTests.dia"
+  }
+}

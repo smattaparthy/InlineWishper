@@ -1,0 +1,612 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DictationKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/sources",
+      "importPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/AudioService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/DictationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/InsertionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/WhisperBridge.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/SystemKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DictationKit",
+      "moduleOutputPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/DictationKit.swiftmodule",
+      "objects" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/AudioService.swift.o",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/DictationService.swift.o",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/InsertionService.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/include/DictationKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "transcriptme_synthetic"
+      ],
+      "outputFileMapPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/DictationKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/AudioService.swift",
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/DictationService.swift",
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/InsertionService.swift"
+      ],
+      "tempsPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SystemKit-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/sources",
+      "importPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Permissions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SystemKit",
+      "moduleOutputPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/SystemKit.swiftmodule",
+      "objects" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger.swift.o",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/include/SystemKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "transcriptme_synthetic"
+      ],
+      "outputFileMapPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/SystemKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Logger.swift",
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Permissions.swift"
+      ],
+      "tempsPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.WhisperBridge-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/sources",
+      "importPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperCPP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "WhisperBridge",
+      "moduleOutputPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/WhisperBridge.swiftmodule",
+      "objects" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperCPP.swift.o",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/WhisperEngine.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/include/WhisperBridge-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xcc",
+        "-I/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/include",
+        "-Xcc",
+        "-I/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/csrc",
+        "-Xcc",
+        "-Wno-shorten-64-to-32",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "transcriptme_synthetic"
+      ],
+      "outputFileMapPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules/WhisperBridge.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperCPP.swift",
+        "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperEngine.swift"
+      ],
+      "tempsPath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DictationKit" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "DictationKit",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-c",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/AudioService.swift",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/DictationService.swift",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/InsertionService.swift",
+      "-I",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/include/DictationKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "SystemKit" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SystemKit",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-c",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Logger.swift",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Permissions.swift",
+      "-I",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/include/SystemKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "WhisperBridge" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "WhisperBridge",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-c",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperCPP.swift",
+      "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperEngine.swift",
+      "-I",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/include/WhisperBridge-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xcc",
+      "-I/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/include",
+      "-Xcc",
+      "-I/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/csrc",
+      "-Xcc",
+      "-Wno-shorten-64-to-32",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "transcriptme_synthetic",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DictationKit" : [
+      "SystemKit",
+      "WhisperBridge"
+    ],
+    "SystemKit" : [
+
+    ],
+    "WhisperBridge" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/AudioService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/DictationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/InsertionService.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/DictationKit.build/sources"
+    },
+    "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Permissions.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/sources"
+    },
+    "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperCPP.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/adommeti/source/transcriptMe_synthetic/Modules/WhisperBridge/Sources/WhisperBridge/WhisperEngine.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/WhisperBridge.build/sources"
+    },
+    "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

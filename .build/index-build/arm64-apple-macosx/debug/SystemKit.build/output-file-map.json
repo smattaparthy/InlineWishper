@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Logger.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Logger.dia"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/SystemKit/Sources/SystemKit/Permissions.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/index-build/arm64-apple-macosx/debug/SystemKit.build/Permissions.dia"
+  }
+}

@@ -1,0 +1,141 @@
+# XcodeGen project specification for InlineWhisper
+name: InlineWhisper
+options:
+  bundleIdPrefix: com.inline
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  defaultConfig: Debug
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "Apple Development"
+    DEVELOPMENT_TEAM: "YOUR_TEAM_ID"  # Replace with your Apple Developer Team ID
+    SWIFT_VERSION: "5.9"
+    ENABLE_HARDENED_RUNTIME: YES
+    MACOSX_DEPLOYMENT_TARGET: "15.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    INFOPLIST_FILE: $(SRCROOT)/configs/AppInfo.plist
+    CODE_SIGN_ENTITLEMENTS: $(SRCROOT)/app/InlineWhisper.entitlements
+    
+  configs:
+    Debug:
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+      ENABLE_TESTABILITY: YES
+      GCC_OPTIMIZATION_LEVEL: 0
+      SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+      DEBUG_INFORMATION_FORMAT: dwarf
+      ENABLE_ADDRESS_SANITIZER: YES
+      ENABLE_UNDEFINED_BEHAVIOR_SANITIZER: YES
+      
+    Release:
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: RELEASE
+      GCC_OPTIMIZATION_LEVEL: s
+      SWIFT_OPTIMIZATION_LEVEL: "-O"
+      DEBUG_INFORMATION_FORMAT: "dwarf-with-dsym"
+      ENABLE_ADDRESS_SANITIZER: NO
+      ENABLE_UNDEFINED_BEHAVIOR_SANITIZER: NO
+
+packages:
+  DictationKit:
+    path: Modules/DictationKit
+  WhisperBridge:
+    path: Modules/WhisperBridge
+  SystemKit:
+    path: Modules/SystemKit
+
+targets:
+  InlineWhisper:
+    type: application
+    platform: macOS
+    sources:
+      - path: app
+        excludes:
+          - "**/.DS_Store"
+          - "**/*.md"
+          - "**/README*"
+    settings:
+      PRODUCT_NAME: InlineWhisper
+      PRODUCT_BUNDLE_IDENTIFIER: com.inline.InlineWhisper
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+      OTHER_LDFLAGS: ["-lc++", "-ObjC", "-framework", "Accelerate"]
+      SYSTEM_FRAMEWORKS:
+        - AVFoundation
+        - AppKit
+        - UserNotifications
+        - CoreAudio
+        - Accelerate
+        - Metal
+        - MetalKit
+    dependencies:
+      - package: DictationKit
+      - package: WhisperBridge
+      - package: SystemKit
+    entitlements:
+      path: app/InlineWhisper.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.device.microphone: true
+
+  # Test target
+  InlineWhisperTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests
+        excludes:
+          - "**/.DS_Store"
+          - "**/*.md"
+    settings:
+      PRODUCT_NAME: InlineWhisperTests
+      PRODUCT_BUNDLE_IDENTIFIER: com.inline.InlineWhisperTests
+    dependencies:
+      - target: InlineWhisper
+      - package: DictationKit
+      - package: WhisperBridge
+      - package: SystemKit
+
+# File templates for new files
+fileTemplates:
+  Swift File:
+    file: File.swift
+    template: |
+      //
+      //  ___FILENAME___
+      //  ___PROJECTNAME___
+      //
+      //  Created by ___FULLUSERNAME___ on ___DATE___.
+      //
+      
+      import Foundation
+      
+      class ___VARIABLE_className___ {
+          
+      }
+
+  SwiftUI View:
+    file: View.swift
+    template: |
+      //
+      //  ___FILENAME___
+      //  ___PROJECTNAME___
+      //
+      //  Created by ___FULLUSERNAME___ on ___DATE___.
+      //
+      
+      import SwiftUI
+      
+      struct ___VARIABLE_viewName___: View {
+          var body: some View {
+              Text("___VARIABLE_viewName___")
+          }
+      }
+      
+      #Preview {
+          ___VARIABLE_viewName___()
+      }

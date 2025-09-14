@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/runner.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/InlineWhisperModulesPackageTests.build/runner.dia"
+  }
+}

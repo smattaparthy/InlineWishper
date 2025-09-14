@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/master.swiftdeps"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/AudioService.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/AudioService.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/AudioService.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/AudioService~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/AudioService.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/AudioService.dia"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/DictationService.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/DictationService.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/DictationService.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/DictationService~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/DictationService.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/DictationService.dia"
+  },
+  "/Users/adommeti/source/transcriptMe_synthetic/Modules/DictationKit/Sources/DictationKit/InsertionService.swift": {
+    "dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/InsertionService.d",
+    "object": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/InsertionService.swift.o",
+    "swiftmodule": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/InsertionService~partial.swiftmodule",
+    "swift-dependencies": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/InsertionService.swiftdeps",
+    "diagnostics": "/Users/adommeti/source/transcriptMe_synthetic/.build/arm64-apple-macosx/debug/DictationKit.build/InsertionService.dia"
+  }
+}
